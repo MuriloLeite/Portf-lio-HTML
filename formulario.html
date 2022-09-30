@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Murilo Theodoro Fenner Leite">
+    <title> Portifolio - Página Inicial> </title>
+    <style>
+        .myDiv {
+            border: 1px outset black;
+            background-color: white;
+            width: 350px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Formulário Web Sites </h1>
+
+    <h2> Informações de Contato </h2>
+    <div class="myDiv">
+        <form method="get" action="banco_de_dados_formulario.html">
+            <label for="femail"> Email:</label><br>
+            <input type="text" id="femail" name="femail" value=""><br><br>
+            <label for="Ativo"> Ativo</label>
+            <input type="checkbox" id="Ativo" name="Ativo" value="Ativo"><br><br>
+            <label for="txtMensagem">Mensagem:</label><br>
+            <textarea id="txtMensagem" placeholder="Escreva sua mensagem"></textarea><br><br>
+            <label for="file"> Anexar arquivo: </label>
+            <input type="file" name="Arquivo" id="Arquivo" value="Arquivo"><br><br><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar"><br>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
